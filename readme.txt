@@ -1,29 +1,17 @@
-ФИО: Борисова Татьяна Сергеевна
-Группа: 328
 
-Задание: 4/Симуляция водной поверхности
+Realistic visualization of 3D water pool.
+Written in C++ using OpenGL 3.0 graphic shaders.
+To run, simply run bin/viewer.exe (windows only).
 
-База: [+]
-Текстуры на объектах: [+]
-Отражения: [-]
-Преломления: [-]
-Каустики (на стенах и на полу, реализованы на GPU): [+]
-Окружение надводное: [-]
-Корректное взаимодействие симуляции с рельефом берега (только плоские участки стен): [+]
-Подводные объекты: [-]
-Визуализация детальной поверхности дна (микрорельеф): [-]
-Визуализация возмущающих объектов: [-]
-Интерактивность: [+]
-Управление камерой: [+]
-Несколько фиксированных положений камеры: [+]
+System requirements:
+System: MS VC++ 2010
+OS: Windows 7 Professional
+Hardware: Intel Core2 Quad Q6600 2.4 GHz, 4Gb, Intel HD Graphics 
 
-Система: MS VC++ 2010
-ОС: Windows 7 Professional
-Аппаратура: Intel Core2 Quad Q6600 2.4 GHz, 4Gb, Intel HD Graphics 
+Comments:
 
-Комментарии:
+Use mouse rotation holding left mouse button to rotate the scene.
+Use right mouse click to add perturbation in the water. Use C to remove perturbation immediately.
+Use WASD to move camera (I and K to move along Y axis), F1, F2, F3 to change fixed camera position.
 
-Все задание реализовано на GPU.
-Управление реализовано так, как сказано в требованиях к заданию. Дополнительно к этому можно перемещать камеру по оси Y при помощи клавиш I и K, а также моментально убирать возмущения с воды при помощи клавиши C.
-Возмущения появляются в том месте, куда указывает мышка.
-Для фильтрации текстуры каустик использован линейный фильтр.
+2012
